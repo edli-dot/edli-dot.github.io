@@ -3958,10 +3958,10 @@ body.is-preload #sidebar nav ul li {
   }
 }
 
-Images */ .skills-list {
+/*Images */
+.skills-list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(6, 1fr);
   justify-content: center;
   /* display: flex;
 			flex-wrap: wrap;
